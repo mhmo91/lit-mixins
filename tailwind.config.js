@@ -11,7 +11,6 @@ export default {
 			center: true,
 		},
 	},
-	plugins: [require('daisyui'), require('@tailwindcss/container-queries')],
 	daisyui: {
 		themes: ['light'],
 	},
