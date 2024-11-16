@@ -1,6 +1,6 @@
 {
 	"name": "@mhmo91/lit-mixins",
-	"version": "0.3.10",
+	"version": "0.3.11",
 	"description": "UI library build with web components",
 	"main": "./dist/index.js",
 	"repository": {
