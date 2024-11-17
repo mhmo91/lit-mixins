@@ -14,7 +14,7 @@ export const BaseElement = <T extends Constructor<LitElement>>(superClass: T) =>
 	class BaseElement extends superClass {
 		disconnecting = new Subject()
 		classMap(classes: Record<string, boolean>) {
-			let newClasses: Record<string, boolean> = {}
+			const newClasses: Record<string, boolean> = {}
 			Object.keys(classes).forEach(key => {
 				key
 					.trim()
